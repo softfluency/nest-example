@@ -69,7 +69,6 @@ WriteDocuments(documents);
 
 Console.WriteLine("----");
 // https://localhost:9200/documents?pretty
-// https://localhost:9200/documents/search?pretty
 // https://localhost:9200/documents/_search?pretty
 
 var searchRN = client.Search<Document>(s => s
