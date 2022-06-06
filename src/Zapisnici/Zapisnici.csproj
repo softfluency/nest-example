@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.0.0-alpha.10" />  
+    <PackageReference Include="Elasticsearch.Net" Version="7.17.2" />  
+    <PackageReference Include="NEST" Version="7.17.2" />  
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>  
+</Project>
