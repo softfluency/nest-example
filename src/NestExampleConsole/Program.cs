@@ -38,7 +38,7 @@ var settings = new ConnectionSettings(pool)
     .DefaultIndex("zapisnici_03");
 // .DefaultIndex("kibana_sample_data_ecommerce");
 
-//var client = new ElasticClient(settings);
+var client = new ElasticClient(settings);
 
 //var zapisnik = new Zapisnik
 //{
